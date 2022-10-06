@@ -11,7 +11,7 @@ pub fn process_data(mut stream: TcpStream) {
         },
 
         Err(_) => {
-            handle_stream_data_processing_error(&stream);
+            handle_stream_reading_error(&stream);
             false
         }
     } {}
@@ -34,7 +34,7 @@ fn prints_everything_on_console(mut stream: &TcpStream, data_bytes: &[u8]) {
     stream.write(data_bytes).unwrap();
 }
 
-fn handle_stream_data_processing_error(stream: &TcpStream) {
+fn handle_stream_reading_error(stream: &TcpStream) {
     let troubling_socket_address: SocketAddr = get_socket_address_from(&stream);
     println!("An error occurred, terminating connection with {}", troubling_socket_address);
 
