@@ -9,4 +9,10 @@ edition = "2021"
 env_logger = "*"
 log = "*"
 
+dotenv = "*"
+
+tokio = "*"
+
+# sqlx = "*"
+
 xml-rs = "0.8"

@@ -1,22 +1,23 @@
 use log::info;
+use dotenv;
 
-mod tcp;
+mod connections;
+
+use connections::tcp::tcp_server;
+
 
 fn main() {
     env_logger::init();
+    dotenv::dotenv().ok();
 
     info!("Starting Server . . .");
-    tcp::open_server_connection();
+    tcp_server::open_server_connection();
 }
 
+mod tests {
 
-mod main {
-
-    mod tests {
-
-        #[test]
-        fn test() {
-            assert!(true)
-        }
+    #[test]
+    fn test() {
+        assert!(true)
     }
 }
