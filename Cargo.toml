@@ -11,8 +11,8 @@ log = "*"
 
 dotenv = "*"
 
-tokio = "*"
+tokio = { version = "*", features = ["full"] }
 
-# sqlx = "*"
+sqlx = { version = "*", features = ["runtime-tokio-rustls", "mysql"] }
 
 xml-rs = "0.8"

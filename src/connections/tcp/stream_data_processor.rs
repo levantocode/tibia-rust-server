@@ -1,3 +1,4 @@
+use log::error;
 use std::net::{TcpStream, SocketAddr, Shutdown};
 use std::io::{Read, Write};
 
@@ -34,7 +35,7 @@ fn prints_everything_on_console(mut stream: &TcpStream, data_bytes: &[u8]) {
 
 fn handle_stream_reading_error(stream: &TcpStream) {
     let troubling_socket_address: SocketAddr = socket_utils::get_socket_address_from(&stream);
-    println!("An error occurred, terminating connection with {}", troubling_socket_address);
+    error!("An error occurred, terminating connection with {}", troubling_socket_address);
 
     terminate_connection_with(&stream);
 }
