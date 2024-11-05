@@ -118,11 +118,11 @@ All very extensible and easy to share with the community to add/remove at will.
 - Better Database Setup/Config
 - Better Interface with Code Functionalities + Easy to Add/Edit
 
-## Etc
+## Some Other Aspects
 - **Initialization** Algorithm (Simpler & Straightforward)
 - Better **Interface Protocols** between Client-Server Commands
 - Integrated Map-Hunt-Monster setup/configuration
 - Better Item & NPC Configuration Format
-  - Possibly a database table
   - Simpler to Access
+  - Possibly a database table
   - Allows for Dynamic Changes from Code
