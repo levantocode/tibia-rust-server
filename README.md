@@ -49,9 +49,29 @@ The nature of the community requires for maximum **Customization**, **Ease of Us
 - Organization & Documentation
 - Test Creation & Maintenance
 
+**Code Quality & Architecture** are essential elements for a **Highly Maintainable & Extensible Codebase**. Due to the nature of the community, Modularization is the essential element for Architecture, as Tests and Design Patterns are for Code Quality.
+
+Codebases with low standards of Code Quality & Architecture are painfully known for unnecessary High Levels of Complexity which leads to many points that goes against the nature of the OT Community:
+- Limits both **Progress & Creativity** as Editing, Adding, or Experimenting with the code becomes extremelly difficult requiring significant **Time, Expertise, and Familiarity** with increasingly bigger chuncks of the Codebase
+- Bugs becomes common occurrences, hard to solve, easy to create, and hard to predict even in small changes.
+- Difficult to understand how anything works as everything is connected and depends on multiple other parts, which often doesn't necessarily makes sense intuitively/conceptually
+- Hard to Document, Test, and Maintain.
+
+Essentially, the Codebase becomes **Calcified** and becomes a major impediment to Creativity, Customization, Collaboration and Newcomers.
+
+The problem is that Architectural problems that lingers for many years are well known for being hard to simply correct it by refactoring the code over time. These kinds of Codebases begin to be referred as **Legacy Systems** meaning that they extremelly hard to change, big enough to prove a challenge to start anew, but still valuable to use even if inconvenient.
+
+Such essential and fundamental problems can only be tackled by starting anew, with a fresh set of technologies, tools, and new eyes from all the knowledge gathered from the pains and problems of the old system.
+
+An expected but mistaken reaction about starting anew, is people imagining how big and complex the current system is and how hard and how long it takes for them to make even simple edits, and projecting that same difficulty to the new system.
+
+The reality is, with the advantage of modern technologies, tools, and knowledge from the old system, together with the benefit of higher code quality, design patterns, modularized architecture, documentation and tests, it will become 100x easier to develop, edit, and collaborate on the project, and things can start to flow way sooner than anyone fixated on the old ways imagine.
+
+Although this all pertains to problems of organization, it is not all about the lack of that and keeping a higher standard to it. Essential to the choice is also the improvement of **Developer Experience & Development Environment**, which will be better explained in the next section about the choice of a new language.
+
 ## Why Rust?
 
-Although C++ is a very solid language, its development environment and limitations are in odds with most of the needs of the Open Tibia Community.
+Although C++ is a very solid language, its Development Environment and limitations are in odds with most of the needs of the Open Tibia Community.
 
 The Rust Ecosystem is essential in the modernization of the Server Infrastructure, and with the language also comes substantial improved Developer Experience including significant improvements in the Development Environment.
 
