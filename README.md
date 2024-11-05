@@ -35,17 +35,20 @@ And many new systems float around the community, like:
 - much more
 
 ## Why "another" Project?
-Sadly, the nature of the community is not well matched with the nature of the development environment and the codebases currently available, as they grew from an old solution for an old game (although some of them are well maintained by competent developers).
+It has everything to do with the **Nature of the OT Community** and the availability of **Modern Technologies**.
 
-We believe as the game and the community evolved to be very dynamic, the development environment and codebase should evolve to match their demands as well.
+We believe as the game and the community evolved to be very dynamic, the Development Environment and Codebase should evolve to match their demands as well.
 
-The nature of the community requires for maximum customization, ease of use and collaboration, which can be translated to high levels of:
+As the essence of the Open Tibia Community is Creativity, Experimentation, Collaboration and Newer Developers, the current state of **Codebases & Development Environment** makes extremelly difficult for it to flourish and introduces an unnecessarily high barrier of entry that frustrates every single person that tries to get involved in the Open Tibia Community or start a Server as they grew from an old solution for an old game (although some of them are well maintained by competent developers). 
+
+The nature of the community requires for maximum **Customization**, **Ease of Use** and **Collaboration**, which can be translated to high levels of:
 - Modularization & Clean Design Patterns
 - Ease of Including & Sharing Libraries
 - Ease of Setup & Experimentation
-- Organization & Documentation
 - Centralization of Resources
+- Organization & Documentation
 - Test Creation & Maintenance
+
 ## Why Rust?
 
 Although C++ is a very solid language, its development environment and limitations are in odds with most of the needs of the Open Tibia Community.
