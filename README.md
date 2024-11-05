@@ -90,19 +90,24 @@ All things considered, Maintainability also improves significantly.
 
 </br>
 
-# Some TFS Spaces for Improvements
-## **Modularization** (Very simple to edit/add anything, no risk to impact anything else)
-  1. Better File Modules & Integration Layers
-  2. Modularized Database Connection (easy to change/include new ones)
-  3. Modularized Client-Server Communication Protocol (easy to change/include new ones)
-  4. Modularized Cryptography (+ Easier to setup)
-  5. Modularized & Complete Script Manager
-  6. Modularized Map Loader
-  7. Modularized Player Setups (Vocs, Skills, Mont, Quest, Aura, Wing, etc...)
-  8. Modularized Command Setups
-  9. Modularized House System
-  10. Modularized Market System
-  11. Modularized Log System (+ Better Logs & Easy Configuration)
+# Some Perspectives for Improvements for TFS Old Ways
+## **Modularization**
+Modularization makes it very simple to edit/add anything, with minimal risk to impact anything else in the code.
+
+It is possible to modularize virtually all parts of a system to make them extensible so they can be customized or replaced with alternatives as easily and fast as possible. Examples of parts on Tibia to be Modularized:
+- Database Connection (Alternative DBs)
+- Client-Server Communication Protocol (Custom Protocols)
+- Cryptography Algorithms
+- Map Loader
+- Script Manager (Open to Multiple Languages)
+- Player Setups (Vocs, Skills, Mont, Quest, Aura, Wing, etc...)
+- Command Setups (Access Hierarchies)
+- House System
+- Market System
+- Log System (+ Better Logs & Easy Configuration)
+- etc...
+
+All very extensible and easy to share with the community to add/remove at will.
 
 ## Better **Database Infrastructure**
 - Multi-thread Database
