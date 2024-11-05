@@ -1,37 +1,73 @@
 # tibia-rust-server
-Tibia server developed on the Rust Language inspired on TFS (TheForgottenServer) with code quality, tests, and architecture improvements.
+An Open Tibia server focused on infrastructure modernization and the fundamental needs of the community.
+
+Inspired by The Forgotten Server (TFS) with enhancements in code quality, testing, and architecture.
+
+Developed in Rust and using a Game Engine (Bevy).
+
+## Current Nature of the Community
+
+The Open Tibia Community has been around for decades representing an open-source ecosystem of fans, developers, and server owners.
+
+On aggregate, the community is extremelly passionate about the game, with a strong sense of creativity and collaboration. Focused on the development of Scripts, Bots, Custom Mechanics and even entire Custom Versions of the game. 
+
+**Customization & Collaboration** is an essential part of the community, where a lot people new to programming try to get involved as well. Nowadays, customizations range from all versions since 7.0 up to recent 14. And includes many alternative versions of the game like:
+- Pokémon
+- Dragon Ball
+- Naruto
+- One Piece
+- Seasonal
+- IDLE
+- NFT
+- and more
+
+And many new systems float around the community, like:
+- Custom Vocations, Spells, and Monsters
+- Lottery & Online Rewards
+- Weapon Rarity & Attributes
+- Rebirth
+- Crafting
+- Mining
+- Raids
+- Dungeon
+- Events & Mini-games
+- UIs
+- much more
+
+## Why "another" Project?
+Sadly, the nature of the community is not well matched with the nature of the development environment and the codebases currently available, as they grew from an old solution for an old game (although some of them are well maintained by competent developers).
+
+We believe as the game and the community evolved to be very dynamic, the development environment and codebase should evolve to match their demands as well.
+
+The nature of the community requires for maximum customization, ease of use and collaboration, which can be translated to high levels of:
+- Modularization & Clean Design Patterns
+- Ease of Including & Sharing Libraries
+- Ease of Setup & Experimentation
+- Organization & Documentation
+- Centralization of Resources
+- Test Creation & Maintenance
+## Why Rust?
+
+Although C++ is a very solid language, its development environment and limitations are in odds with most of the needs of the Open Tibia Community.
+
+The Rust Ecosystem is essential in the modernization of the Server Infrastructure, and with the language also comes substantial improved Developer Experience including significant improvements in the Development Environment.
+
+Developer Experience Improvements:
+- Expressive Debugger: easier to find and know the solution to bugs
+- Higher Memory Safety: no NULL Problems and related bugs
+- Better Code Constructs: Simpler & More Expressive
+- Much Easier to Add & Share Modules as Libraries
+ 
+Included in the improvement of Development Experience, and with significant scope of being extremelly important for the nature of the Open Tibia Community is the improvements on the Development Environment:
+- Much Lighter with No Configuration
+- Automated & Integrated Builder (+ no CMake)
+- Simple & Integrated Dependency Manager (awesome)
+
+All things considered, Maintainability also improves significantly.
 
 </br>
 
-# Why?
-TFS C++     →     TFS Rust
-
-## Terrible **Architecture**
-- Leads to many unnecessary bugs & limitations
-- Simply **Bad Code**
-  - Very badly modularized
-  - Almost no organization
-  - Lots of things unnecessarily interconnected (higher complexity, unexpected bugs)
-  - Requires a great degree of knowledge and familiarity to change even small things
-- Terrible for the **Community**
-  - Makes it Hard to edit/add or even try anything
-  - Even those who can, takes way longer do edit/add anything
-- Tests (amazing)
-
-## Rust is in many ways an improvement over C++ (and more "attractive" as well)
-- **Infrastructure**
-  - Simple & Integrated Dependency Manager (makes a ton of difference)
-  - Much lighter development environment, with basically no configuration
-  - Automated & Integrated Builder (no CMake bullshit)
-- **Development**
-  - Much more expressive Debugger, easy to find and know the solution to Bugs
-  - Easy to add any Dependency, or share any module as lib
-  - Much higher memory safety
-  - More expressive and simpler constructs to code
-
-</br>
-
-# Space for Improvements
+# Some TFS Spaces for Improvements
 ## **Modularization** (Very simple to edit/add anything, no risk to impact anything else)
   1. Better File Modules & Integration Layers
   2. Modularized Database Connection (easy to change/include new ones)
